@@ -10,6 +10,7 @@
 
   <body>
     <div ng-controller="MultiplicationCtrl" initial-number-limit="10">
+     <input type="number" ng-model="numberLimit" placeholder="Enter a number" />
           <table>
               <tr ng-repeat="numberA in numbers()">
                   <td ng-repeat="numberB in numbers()">
